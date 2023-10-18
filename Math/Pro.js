@@ -4,3 +4,4 @@ console.log(Math.ceil(a))
 console.log(Math.abs(a))
 console.log(Math.PI);
 console.log(Math.pow(2,4))
+console.log(Math.floor(5.6))
