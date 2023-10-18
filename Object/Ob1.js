@@ -14,6 +14,7 @@ console.log(s["Name"])
 console.log(s["pincode"])
 console.log(s["Branch"])
 console.log(s)
+s.Class = 5
 Object.freeze(s);// Freeze Object Cannot change value.
 s.Name = "Mohan";
 console.log(s)
