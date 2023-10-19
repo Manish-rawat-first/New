@@ -1,4 +1,4 @@
-const num = 4;
+const num = 6;
 switch (num) {
   case 1:
     console.log("Papa");
@@ -15,7 +15,7 @@ switch (num) {
   case 5:
     console.log("Sakshi didi");
     break;
-  case 5:
+  case 6:
     console.log("Manish Rawat");
     break;
   default:
