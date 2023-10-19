@@ -1,2 +1,4 @@
 falsy value:
 null,NaN,undefined,bigInt,false,0,-0,""
+Truthy values:
+1,"0"," ",{},[],function(){},"false";
