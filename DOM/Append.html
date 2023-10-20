@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+</head>
+<body bgcolor="blue" color = "white">
+    <ul class = "lang">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addOptiLanguage(lang){
+        const li = document.createElement('li');
+        li.innerHTML = lang;
+        // li.appendChild(document.createTextNode(li))
+        document.querySelector('.lang').append(li)
+    }
+    addOptiLanguage("python")
+    addOptiLanguage("Java");
+    function addOpti(lang){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(lang));
+        document.querySelector('.lang').appendChild(li);
+    }
+    addOpti("HTML")
+    addOpti("CSS");
+    const firstlang = document.querySelector('li:first-child');
+    firstlang.outerHTML = "<li> Ruby </li>"
+    const lastlang = document.querySelector('li:last-child');
+    lastlang.remove()
+    </script>
+</html>
