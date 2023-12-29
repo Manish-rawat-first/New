@@ -4,7 +4,7 @@ function App() {
   return (
     // Fragment term.
     <>
-    <h1>Chai aur react with vite || Manish Rawat</h1>
+    <h1><i>Chai aur react with vite || Manish Rawat</i></h1>
     <Chai/>
     </>
   )
