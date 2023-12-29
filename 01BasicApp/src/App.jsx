@@ -1,7 +1,12 @@
+import Chai from './Chai';
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    // Fragment term.
+    <>
+    <h1>Chai aur react with vite || Manish Rawat</h1>
+    <Chai/>
+    </>
   )
 }
 

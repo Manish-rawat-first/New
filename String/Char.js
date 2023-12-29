@@ -6,3 +6,4 @@ console.log(ch.includes('ghar'))// Present value or not
 
 console.log(ch.startsWith('M'))
 console.log(ch.endsWith('an'))
+//console.log(ch.split('').reverse())
